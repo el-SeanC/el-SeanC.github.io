@@ -227,21 +227,21 @@
 
                 <h3 class="h-add-bottom">Send Me A Message</h3>
 
-                <form>
+                <form action="https://formspree.io/f/xrgorkoq" method="POST">
                     <div>
                         <label for="sampleInput">Your email</label>
-                        <input class="h-full-width" type="email" placeholder="example@mailbox.com" id="sampleInput">
+                        <input class="h-full-width" type="email" placeholder="example@mailbox.com" id="sampleInput" name="Email">
                     </div>
                     <div>
                         <label for="sampleRecipientInput">Company</label>
-                        <input class="h-full-width" type="text" placeholder="Name" id="sampleInput">
+                        <input class="h-full-width" type="text" placeholder="Name" id="sampleInput" name="Company">
                     </div>
                     
                     <label for="exampleMessage">Message</label>
-                    <textarea class="h-full-width" placeholder="Your message" id="exampleMessage"></textarea>
+                    <textarea class="h-full-width" placeholder="Your message" id="exampleMessage" name="Message"></textarea>
 
                     <label class="h-add-bottom">
-                        <input type="checkbox">
+                        <input type="checkbox" name="Checkbox">
                         <span class="label-text">Send a copy to yourself</span>
                     </label>
                 
